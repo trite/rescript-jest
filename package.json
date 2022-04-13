@@ -5,7 +5,8 @@
     "build": "rescript",
     "clean": "rescript clean -with-deps",
     "start": "rescript build -w",
-    "test": "jest"
+    "test": "jest",
+    "testwatch": "jest --watch"
   },
   "keywords": [
     "rescript"
