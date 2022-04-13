@@ -2,6 +2,9 @@
 'use strict';
 
 
-console.log("Hello, World!");
+function doubleSum(a, b) {
+  return (a << 1) + (b << 1) | 0;
+}
 
-/*  Not a pure module */
+exports.doubleSum = doubleSum;
+/* No side effect */
